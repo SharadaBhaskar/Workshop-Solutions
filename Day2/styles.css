@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5em;
+    padding: 7em;
+    background-color:  rgb(92, 193, 224);
+}
+
+header {
+    background-color:baby pink ;
+    color:aliceblue;
+    text-align: center;
+    padding: 5em;
+}
+
+header h1 {
+    margin: 2em;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 1em;
+}
+
+.menu-section {
+    margin-bottom: 1.5em;
+    border: 1px solid #045820;
+    background-color: red;
+    padding: 1em;
+}
+
+.menu-section h2 {
+    border-bottom: 2px skyblue;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ea7070;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: burlywood;
+}
+
+footer {
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
